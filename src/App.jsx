@@ -11,13 +11,14 @@ import DataSci from "./datascience";
 import CareerChatbot from "./chatbot";
 import Ml from "./ml"
 import Dsa from "./dsa"
+import Cyber from "./cyber"
 
 
 function Layout() {
   const location = useLocation();
 
   // routes where navbar should NOT appear
-  const hideNavRoutes = ["/webdev" , "/datasci" ,"/ml" ,"/dsa"];
+  const hideNavRoutes = ["/webdev" , "/datasci" ,"/ml" ,"/dsa" , "/cyber"];
 
 
 
@@ -38,6 +39,7 @@ function Layout() {
         <Route path="/datasci" element={<DataSci />} />
         <Route path="/ml" element={<Ml />} />
         <Route path="/dsa" element={<Dsa />} />
+        <Route path="/cyber" element={<Cyber />} />
         <Route path="/chatbot" element={<CareerChatbot/>}/>
       </Routes>
     </>

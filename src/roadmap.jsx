@@ -23,7 +23,7 @@ export default function CareerOptions() {
         AI / ML Engineer
       </button>
 
-      <button onClick={() => handleClick("Cyber Security")} className='Cbtn'>
+      <button onClick={() => navigate("/cyber ")} className='Cbtn'>
         Cyber Security
       </button>
 
