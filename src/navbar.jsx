@@ -37,12 +37,12 @@ const Navbar = () => {
       style={{
         position: "absolute",
         top: "35rem",
-        left: "50px",       // starting X position
-        width: "400px",     // ⭐ FIXED WIDTH
+        left: "50px",       
+        width: "400px",     
         userSelect: "none",
       }}
     >
-      {/* ⭐ your navbar content — unchanged */}
+      
 
       <button className="btnnav">
         <Link to="/roadmap" className="l">

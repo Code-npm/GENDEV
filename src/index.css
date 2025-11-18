@@ -18,7 +18,8 @@ nav {
   position: fixed;
   bottom: 10px;
   left: 50%;
-  transform: translateX(50%);
+  right: 10%;
+  transform: translateX(10%);
   width: 90%;
   max-width: 400px;
   background-color: whitesmoke;
@@ -87,7 +88,7 @@ nav {
   100% { opacity: 1; }
 }
 
-/* Responsive Login Section */
+
 .login {
   display: flex;
   justify-content: center;
@@ -239,7 +240,6 @@ nav {
   color: white;
 }
 
-/* Responsive Outer Container */
 .outer {
   max-width: 90vw;
   width: 100%;
@@ -287,7 +287,6 @@ nav {
   transform: scale(1.05);
 }
 
-/* Responsive Info Sections */
 .personalinfo, .contactinfo, .academicinfo, .upload {
   margin: 15px;
   background-color: white;
@@ -344,7 +343,7 @@ nav {
   transform: scale(1.05);
 }
 
-/* Responsive Options Section */
+
 .opt {
   display: flex;
   justify-content: center;
@@ -392,7 +391,6 @@ nav {
   transform: scale(0.95);
 }
 
-/* Responsive Nav-r */
 .nav-r {
   display: flex;
   justify-content: space-between;
@@ -440,7 +438,6 @@ nav {
   font-size: clamp(0.9rem, 2vw, 1rem);
 }
 
-/* Mobile-specific adjustments */
 @media (max-width: 768px) {
   body {
     padding-bottom: 100px;
