@@ -14,12 +14,11 @@ body {
   overflow-x: hidden;
 }
 
-/* Responsive Navigation */
 nav {
   position: fixed;
   bottom: 10px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(50%);
   width: 90%;
   max-width: 400px;
   background-color: whitesmoke;
@@ -33,7 +32,7 @@ nav {
   z-index: 1000;
 }
 
-/* Responsive Name/Title */
+
 .name {
   font-size: clamp(3rem, 8vw, 9.2rem);
   margin: 20px 10px;
@@ -53,7 +52,7 @@ nav {
   50% { transform: translateY(-5px); }
 }
 
-/* Responsive Parent Container */
+
 .parent {
   display: flex;
   flex-direction: column;
@@ -70,7 +69,6 @@ nav {
   object-fit: contain;
 }
 
-/* Responsive Heading */
 .h3 {
   font-size: clamp(1.2rem, 3vw, 2.2rem);
   margin: 20px;
@@ -199,7 +197,6 @@ nav {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsive Top Navigation */
 .nav {
   display: flex;
   justify-content: space-between;
