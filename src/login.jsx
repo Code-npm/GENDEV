@@ -5,7 +5,7 @@ const Login = () => {
     <div className="page">
      <div className="welcome-text">
   <h1>Welcome Back!</h1>
-  {/* <p>Log in to continue exploring GEN'Z-DEV</p> */}
+ 
 </div>
 
     <div className="login">

@@ -17,18 +17,17 @@ import Cyber from "./cyber"
 function Layout() {
   const location = useLocation();
 
-  // routes where navbar should NOT appear
   const hideNavRoutes = ["/webdev" , "/datasci" ,"/ml" ,"/dsa" , "/cyber"];
 
 
 
   return (
     <>
-      {/* Show navbar only if route NOT in hideNavRoutes */}
+      
       {!hideNavRoutes.includes(location.pathname) && <Navbar />}
 
       <Routes>
-        {/* Default route → Home */}
+    
         <Route path="/" element={<Home />} />
         
         <Route path="/home" element={<Home />} />
